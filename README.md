@@ -6,7 +6,8 @@ Batch (.bat) files for simple backup automation in MS-Windows
 This .bat creates a folder in a specified path and saves the specified files inside the folder created.
 
 It is easily customizable:
-All parameters below should be changed, otherwise it won't work.
+
+Notice: All parameters below should be changed, otherwise it won't work.
 
 1. change `[disk_drive_where_your_files_are]` to the letter of the drive where the files you want to be backed up are. If your files are in *C:/Program Files/System XYZ*, here you should put only *c:*
 
@@ -27,7 +28,8 @@ This .bat will delete a file on a given folder after 1 month.
 
 
 It is easily customizable:
-All parameters below should be changed, otherwise it won't work.
+
+Notice: All parameters below should be changed, otherwise it won't work.
 
 1. change `[path_to_your_folder_here]` to the complete path where your backed-up files are being saved to (e.g. E:\bkp_folder). Do not leave any leading spaces between the `=` and your path. Notice that **backslash** `\` is being used in the path, NOT forward slash `/`.
 

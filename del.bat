@@ -3,7 +3,7 @@ rem Developed by Higor Kern
 
 set FOLDER_PATH=[path_to_your_folder_here]
 
-set NAME=[file_name_goes_here]
+set NAME=[folder_name_goes_here]
 
 rem gets the date
 for /F "usebackq tokens=1,2 delims==" %%i in (`wmic os get LocalDateTime /VALUE 2^>NUL`) do if '.%%i.'=='.LocalDateTime.' set ldt=%%j
